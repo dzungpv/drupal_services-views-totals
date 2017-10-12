@@ -2,16 +2,11 @@
 
 /**
  * @file
- * Results as separate value in response.
- *
- * @param array $output
- *   Results of the view execution. These will be sent to services for renderin$
- * @param object $view
- *   Views object.
+ * Main module file.
  */
 
 /**
- *
+ * Implements hook_view_alter().
  */
 function services_views_totals_services_views_execute_view_alter(&$output, $view) {
   $total_results = $view->total_rows;
