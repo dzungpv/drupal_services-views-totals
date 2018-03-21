@@ -2,3 +2,4 @@ name = Services Views Totals
 description = This module adds pager totals (results) to REST output in Services Views.
 core = 7.x
 dependencies[]=services_views
+version = 7.x-1.0
