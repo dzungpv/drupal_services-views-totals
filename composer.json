@@ -1,6 +1,6 @@
 {
   "name": "drupal/services_views_totals",
-  "description": "Display total and page information in a views display of a service",
+  "description": "Drupal module that adds metadata to REST requests for Services Views",
   "type": "drupal-module",
   "license": "GPL-2.0-or-later",
   "require": {
